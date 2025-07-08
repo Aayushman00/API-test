@@ -1,4 +1,4 @@
-\# 🧪 API Tester CLI Tool
+# 🧪 API Tester CLI Tool
 
 
 
@@ -10,21 +10,21 @@ A lightweight, terminal-based API testing tool that mimics basic functionality o
 
 
 
-\## ✅ Features
+## ✅ Features
 
 
 
-\* 🟢 Supports all major HTTP methods
+* 🟢 Supports all major HTTP methods
 
-\* 🔐 Supports Basic and Bearer Token Authentication
+* 🔐 Supports Basic and Bearer Token Authentication
 
-\* 🖍 Pretty-prints responses using `rich`
+* 🖍 Pretty-prints responses using `rich`
 
-\* 📜 Saves last 5 request histories
+* 📜 Saves last 5 request histories
 
-\* 📋 Generates curl equivalent command for reuse
+* 📋 Generates curl equivalent command for reuse
 
-\* 🧠 Input headers and data in JSON format
+* 🧠 Input headers and data in JSON format
 
 
 
@@ -32,7 +32,7 @@ A lightweight, terminal-based API testing tool that mimics basic functionality o
 
 
 
-\## 📦 Requirements
+## 📦 Requirements
 
 
 
@@ -70,7 +70,7 @@ rich
 
 
 
-\## 🚀 Usage
+## 🚀 Usage
 
 
 
@@ -86,7 +86,7 @@ python apitest.py --method GET --url https://api.github.com
 
 
 
-\### 📬 POST Request with JSON Body
+### 📬 POST Request with JSON Body
 
 
 
@@ -98,7 +98,7 @@ python apitest.py --method POST --url https://httpbin.org/post --data '{"name": 
 
 
 
-\### 🔐 With Headers and Bearer Token
+### 🔐 With Headers and Bearer Token
 
 
 
@@ -114,7 +114,7 @@ python apitest.py --method GET --url https://api.example.com/data \\
 
 
 
-\### 🧾 Basic Authentication
+### 🧾 Basic Authentication
 
 
 
@@ -126,7 +126,7 @@ python apitest.py --method GET --url https://httpbin.org/basic-auth/user/pass --
 
 
 
-\### 📜 View Request History
+### 📜 View Request History
 
 
 
@@ -142,21 +142,21 @@ python apitest.py --history
 
 
 
-\## 🧰 Example Output
+## 🧰 Example Output
 
 
 
-\* Status Code
+* Status Code
 
-\* Time Taken
+* Time Taken
 
-\* Response Size
+* Response Size
 
-\* Content-Type
+* Content-Type
 
-\* Response Body (formatted JSON if applicable)
+* Response Body (formatted JSON if applicable)
 
-\* Curl Command for the request
+* Curl Command for the request
 
 
 
@@ -164,7 +164,7 @@ python apitest.py --history
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 
 
@@ -184,17 +184,17 @@ python apitest.py --history
 
 
 
-\## 📤 Optional Improvements
+## 📤 Optional Improvements
 
 
 
-\* Save responses to file
+* Save responses to file
 
-\* Retry on failure
+* Retry on failure
 
-\* Export Postman collection
+* Export Postman collection
 
-\* Chained requests / scripting
+* Chained requests / scripting
 
 
 
