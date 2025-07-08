@@ -106,9 +106,9 @@ python apitest.py --method POST --url https://httpbin.org/post --data '{"name": 
 
 python apitest.py --method GET --url https://api.example.com/data \\
 
-&nbsp; --headers '{"Accept": "application/json"}' \\
+    --headers '{"Accept": "application/json"}' \\
 
-&nbsp; --bearer YOUR\_TOKEN\_HERE
+    --bearer YOUR\_TOKEN\_HERE
 
 ```
 
@@ -182,23 +182,6 @@ python apitest.py --history
 
 ---
 
-
-
-## 📤 Optional Improvements
-
-
-
-* Save responses to file
-
-* Retry on failure
-
-* Export Postman collection
-
-* Chained requests / scripting
-
-
-
----
 
 
 
